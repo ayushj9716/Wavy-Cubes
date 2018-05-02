@@ -7,7 +7,7 @@ function setup () {
 
 function draw() {
 	background(backgroundColor);
-	ortho(-canvasWidth, canvasWidth, canvasHeight, -canvasHeight, 0, 2*height);
+	ortho(-canvasWidth, canvasWidth, canvasHeight, -canvasHeight, -height, 2*height);
 	
 	rotateX(QUARTER_PI);
 	rotateY(QUARTER_PI);
